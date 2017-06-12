@@ -1,0 +1,66 @@
+@import "settings";
+@import "reset";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #303030;
+}
+
+body, button, input, select, textarea, strong, h1, h2, h3, h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+body, button, input, select, textarea {
+    font-weight: 300;
+}
+
+body, a {
+    color: #ffffff;
+}
+
+strong, h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.hide {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.max-width {
+    max-width: @maxWidth;
+    margin: auto;
+}

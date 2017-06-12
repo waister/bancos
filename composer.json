@@ -1,0 +1,17 @@
+{
+    "name": "waister/banks",
+    "description": "API Rest dos bancos do Brasil",
+    "type": "api,rest,banks,bancos do brasil",
+    "keywords": [ "mysql", "pdo", "php", "waister" ],
+    "homepage": "https://banks.waisternunes.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Waister Nunes",
+            "email": "waisters@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
